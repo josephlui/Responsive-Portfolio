@@ -307,27 +307,30 @@ input, textarea{
 }
 .subtitle{
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     color: white;
     background-color:#4aaaa5;
-    width: 150px;
-    height:20px;
-    line-height: 20px;
+    width: 98%;
+    line-height: 40px;
     text-align: center;
+    padding: 0;
 }
 
 #portfolio_img1_container{
     width: 45%;
     height: 140px;
     float: left;
-    padding: 5px;
+    padding: 0px;
+    position: relative;
 }
 #portfolio_img2_container{
     width: 45%;
     height: 140px;
     float: left;
-    padding: 5px;
+    padding: 0px;
+    position: relative;
 }
+
 #portfolio_sep2, #portfolio_sep4, #portfolio_sep5{
     clear: both;
 }
@@ -335,19 +338,22 @@ input, textarea{
     width: 45%;
     height: 140px;
     float: left;
-    padding: 5px;
+    padding: 0px;
+    position: relative;
 }
 #portfolio_img4_container{
     width: 45%;
     height: 140px;
     float: left;
-    padding: 5px;
+    padding: 0px;
+    position: relative;
 }
 #portfolio_img5_container{
     width: 45%;
     height: 140px;
     float: left;
-    padding: 5px;
+    padding: 0px;
+    position: relative;
 }
 
 @media screen and (max-width: 768px){

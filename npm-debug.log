@@ -1,0 +1,215 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'slack-history-export',
+1 verbose cli   '-g' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'slack-history-export', null ]
+7 verbose cache add spec slack-history-export
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'slack-history-export',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'slack-history-export',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed slack-history-export@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for slack-history-export
+11 info addNameTag [ 'slack-history-export', 'latest' ]
+12 silly mapToRegistry name slack-history-export
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'slack-history-export',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'slack-history-export',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/slack-history-export
+17 verbose addNameTag registry:https://registry.npmjs.org/slack-history-export not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/slack-history-export
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 8:54:29 PM
+21 verbose request id ec7bbc0518cc9d91
+22 verbose etag W/"42897a9f6bc76158de3d69377215dd5e"
+23 verbose lastModified Sun, 27 May 2018 17:33:09 GMT
+24 http request GET https://registry.npmjs.org/slack-history-export
+25 http 304 https://registry.npmjs.org/slack-history-export
+26 verbose headers { date: 'Fri, 05 Oct 2018 00:54:29 GMT',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'set-cookie': [ '__cfduid=db3ddd98184a0e24b81ed16924505c0ff1538700869; expires=Sat, 05-Oct-19 00:54:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+26 verbose headers   'cf-cache-status': 'HIT',
+26 verbose headers   'cache-control': 'max-age=300',
+26 verbose headers   'cf-ray': '464bead19a663048-YYZ',
+26 verbose headers   etag: '"42897a9f6bc76158de3d69377215dd5e"',
+26 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+26 verbose headers   'last-modified': 'Sun, 27 May 2018 17:33:09 GMT',
+26 verbose headers   vary: 'accept-encoding, accept',
+26 verbose headers   server: 'cloudflare' }
+27 silly get cb [ 304,
+27 silly get   { date: 'Fri, 05 Oct 2018 00:54:29 GMT',
+27 silly get     connection: 'keep-alive',
+27 silly get     'set-cookie': [ '__cfduid=db3ddd98184a0e24b81ed16924505c0ff1538700869; expires=Sat, 05-Oct-19 00:54:29 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+27 silly get     'cf-cache-status': 'HIT',
+27 silly get     'cache-control': 'max-age=300',
+27 silly get     'cf-ray': '464bead19a663048-YYZ',
+27 silly get     etag: '"42897a9f6bc76158de3d69377215dd5e"',
+27 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+27 silly get     'last-modified': 'Sun, 27 May 2018 17:33:09 GMT',
+27 silly get     vary: 'accept-encoding, accept',
+27 silly get     server: 'cloudflare' } ]
+28 verbose etag https://registry.npmjs.org/slack-history-export from cache
+29 verbose get saving slack-history-export to /Users/josephlui/.npm/registry.npmjs.org/slack-history-export/.cache.json
+30 verbose correctMkdir /Users/josephlui/.npm correctMkdir not in flight; initializing
+31 silly addNameTag next cb for slack-history-export with tag latest
+32 silly addNamed slack-history-export@1.1.1
+33 verbose addNamed "1.1.1" is a plain semver version for slack-history-export
+34 silly cache afterAdd slack-history-export@1.1.1
+35 verbose afterAdd /Users/josephlui/.npm/slack-history-export/1.1.1/package/package.json not in flight; writing
+36 verbose correctMkdir /Users/josephlui/.npm correctMkdir not in flight; initializing
+37 verbose afterAdd /Users/josephlui/.npm/slack-history-export/1.1.1/package/package.json written
+38 silly install resolved [ { name: 'slack-history-export',
+38 silly install resolved     version: '1.1.1',
+38 silly install resolved     description: 'Command line module to export slack history',
+38 silly install resolved     keywords: [ 'slack', 'export', 'es6' ],
+38 silly install resolved     homepage: 'https://github.com/hisabimbola/slack-history-export#readme',
+38 silly install resolved     bugs: { url: 'https://github.com/hisabimbola/slack-history-export/issues' },
+38 silly install resolved     license: 'MIT',
+38 silly install resolved     author:
+38 silly install resolved      { name: 'Abimbola Idowu',
+38 silly install resolved        email: 'abimbola2010@gmail.com',
+38 silly install resolved        url: 'http://hisabimbola.com' },
+38 silly install resolved     main: '',
+38 silly install resolved     repository:
+38 silly install resolved      { type: 'git',
+38 silly install resolved        url: 'git+https://github.com/hisabimbola/slack-history-export.git' },
+38 silly install resolved     bin: { 'slack-history-export': 'bin/slack-history-export.js' },
+38 silly install resolved     preferGlobal: true,
+38 silly install resolved     scripts:
+38 silly install resolved      { test: 'npm run build && cross-env NODE_ENV=test NODE_PATH=./src babel-node node_modules/.bin/tape test/*.spec.js test/**/*.spec.js | tap-spec',
+38 silly install resolved        'test:watch': 'chokidar src test bin -c \'npm test\'',
+38 silly install resolved        build: 'npm run clean && babel src -d lib',
+38 silly install resolved        clean: 'rimraf lib/* coverage',
+38 silly install resolved        commit: 'git-cz',
+38 silly install resolved        prepublish: 'npm run build',
+38 silly install resolved        codecov: 'cat ./coverage/lcov.info | codecov',
+38 silly install resolved        coverage: 'npm run lint && npm run clean && cross-env NODE_ENV=test nyc --reporter=lcov --reporter=text npm test',
+38 silly install resolved        'check-coverage': 'nyc check-coverage --lines 100 --functions 100 --branches 100',
+38 silly install resolved        local: 'npm run clean && npm run build && node bin/slack-history-export.js',
+38 silly install resolved        'coverage:html': 'npm run lint && cross-env NODE_ENV=test nyc --reporter=html npm test',
+38 silly install resolved        lint: './scripts/lint src test',
+38 silly install resolved        'semantic-release': 'semantic-release pre && npm publish && semantic-release post' },
+38 silly install resolved     config: { commitizen: [Object], ghooks: [Object] },
+38 silly install resolved     eslintConfig: { extends: 'commercetools', settings: [Object] },
+38 silly install resolved     files: [ 'lib/', 'bin/' ],
+38 silly install resolved     devDependencies:
+38 silly install resolved      { 'babel-cli': '^6.14.0',
+38 silly install resolved        'babel-eslint': '^7.2.3',
+38 silly install resolved        'babel-plugin-istanbul': '^4.1.4',
+38 silly install resolved        'babel-preset-es2015': '^6.14.0',
+38 silly install resolved        'chokidar-cli': '^1.2.0',
+38 silly install resolved        codecov: '^2.2.0',
+38 silly install resolved        commitizen: '^2.8.6',
+38 silly install resolved        'cross-env': '^5.0.1',
+38 silly install resolved        'cz-conventional-changelog': '^2.0.0',
+38 silly install resolved        eslint: '^3.6.0',
+38 silly install resolved        'eslint-config-airbnb': '^15.0.1',
+38 silly install resolved        'eslint-config-commercetools': '^6.0.0',
+38 silly install resolved        'eslint-formatter-pretty': '^1.0.0',
+38 silly install resolved        'eslint-plugin-import': '^2.3.0',
+38 silly install resolved        'eslint-plugin-jsx-a11y': '^5.0.3',
+38 silly install resolved        'eslint-plugin-react': '^7.0.1',
+38 silly install resolved        ghooks: '^2.0.0',
+38 silly install resolved        nyc: '^11.0.2',
+38 silly install resolved        rimraf: '^2.6.1',
+38 silly install resolved        'semantic-release': '^6.3.6',
+38 silly install resolved        sinon: '^2.3.4',
+38 silly install resolved        streamtest: '^1.2.2',
+38 silly install resolved        'tap-spec': '^4.1.1',
+38 silly install resolved        tape: '^4.6.0',
+38 silly install resolved        tmp: '^0.0.31',
+38 silly install resolved        'validate-commit-msg': '^2.12.2' },
+38 silly install resolved     engines: { node: '>= 4.5.0' },
+38 silly install resolved     nyc: { include: [Object], sourceMap: false, instrument: false },
+38 silly install resolved     dependencies:
+38 silly install resolved      { lodash: '^4.17.2',
+38 silly install resolved        nconf: '^0.8.4',
+38 silly install resolved        npmlog: '^4.0.2',
+38 silly install resolved        slack: '^8.1.2',
+38 silly install resolved        untildify: '^3.0.2',
+38 silly install resolved        yargs: '^8.0.1' },
+38 silly install resolved     gitHead: 'e53868d8820ba65e5e726bd5968c80d5eb54c0db',
+38 silly install resolved     _id: 'slack-history-export@1.1.1',
+38 silly install resolved     _shasum: '971c7483e01ac18306b0783517f8555779ac82f8',
+38 silly install resolved     _from: 'slack-history-export@latest',
+38 silly install resolved     _npmVersion: '4.2.0',
+38 silly install resolved     _nodeVersion: '7.10.1',
+38 silly install resolved     _npmUser: { name: 'hisabimbola', email: 'abimbola2010@gmail.com' },
+38 silly install resolved     dist:
+38 silly install resolved      { shasum: '971c7483e01ac18306b0783517f8555779ac82f8',
+38 silly install resolved        tarball: 'https://registry.npmjs.org/slack-history-export/-/slack-history-export-1.1.1.tgz' },
+38 silly install resolved     maintainers: [ [Object] ],
+38 silly install resolved     _npmOperationalInternal:
+38 silly install resolved      { host: 's3://npm-registry-packages',
+38 silly install resolved        tmp: 'tmp/slack-history-export-1.1.1.tgz_1505729020402_0.1924293078482151' },
+38 silly install resolved     directories: {},
+38 silly install resolved     _resolved: 'https://registry.npmjs.org/slack-history-export/-/slack-history-export-1.1.1.tgz',
+38 silly install resolved     readme: 'ERROR: No README data found!' } ]
+39 info install slack-history-export@1.1.1 into /usr/local/lib
+40 info installOne slack-history-export@1.1.1
+41 verbose installOne of slack-history-export to /usr/local/lib not in flight; installing
+42 verbose correctMkdir /Users/josephlui/.npm/_locks correctMkdir not in flight; initializing
+43 verbose lock using /Users/josephlui/.npm/_locks/slack-history-export-f58a0d7031069cf9.lock for /usr/local/lib/node_modules/slack-history-export
+44 warn engine slack-history-export@1.1.1: wanted: {"node":">= 4.5.0"} (current: {"node":"4.4.7","npm":"2.15.8"})
+45 silly install write writing slack-history-export 1.1.1 to /usr/local/lib/node_modules/slack-history-export
+46 verbose unbuild lib/node_modules/slack-history-export
+47 silly gentlyRm /usr/local/lib/node_modules/slack-history-export is being purged from base /usr/local
+48 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/slack-history-export
+49 verbose tar unpack /Users/josephlui/.npm/slack-history-export/1.1.1/package.tgz
+50 verbose tar unpacking to /usr/local/lib/node_modules/slack-history-export
+51 silly gentlyRm /usr/local/lib/node_modules/slack-history-export is being purged
+52 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/slack-history-export
+53 silly gunzTarPerm modes [ '755', '644' ]
+54 error tar.unpack untar error /Users/josephlui/.npm/slack-history-export/1.1.1/package.tgz
+55 verbose unlock done using /Users/josephlui/.npm/_locks/slack-history-export-f58a0d7031069cf9.lock for /usr/local/lib/node_modules/slack-history-export
+56 verbose fstream_path /usr/local/lib/node_modules/slack-history-export
+57 verbose fstream_type Directory
+58 verbose fstream_class DirWriter
+59 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/slack-history-export'
+59 verbose stack     at Error (native)
+60 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+60 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+60 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+61 verbose cwd /Users/josephlui/course/Responsive-Portfolio
+62 error Darwin 15.6.0
+63 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "slack-history-export" "-g"
+64 error node v4.4.7
+65 error npm  v2.15.8
+66 error path /usr/local/lib/node_modules/slack-history-export
+67 error code EACCES
+68 error errno -13
+69 error syscall mkdir
+70 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/slack-history-export'
+70 error     at Error (native)
+70 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/slack-history-export']
+70 error   errno: -13,
+70 error   code: 'EACCES',
+70 error   syscall: 'mkdir',
+70 error   path: '/usr/local/lib/node_modules/slack-history-export',
+70 error   fstream_type: 'Directory',
+70 error   fstream_path: '/usr/local/lib/node_modules/slack-history-export',
+70 error   fstream_class: 'DirWriter',
+70 error   fstream_stack:
+70 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+70 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+70 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+71 error Please try running this command again as root/Administrator.
+72 verbose exit [ -13, true ]
+73 verbose unbuild lib/node_modules/slack-history-export
+74 silly gentlyRm /usr/local/lib/node_modules/slack-history-export is being purged from base /usr/local
+75 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/slack-history-export
